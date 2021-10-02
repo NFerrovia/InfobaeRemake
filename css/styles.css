@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: white;
+	background-color: black;
+	font-size: 1em;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.container {
+	width: 100%;
+	margin: auto;
+	position: sticky;
+	top: 0;
+}
+/* navigation styles*/
+.nav-main {
+	font-size: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	padding: 20px 0;
+}
+.nav-brand {
+	width: 50px;
+}
+.nav-main ul {
+	display: flex;
+	align-items: center;
+}
+.nav-main ul li {
+	padding: 10px;
+}
+.nav-main ul li a:hover {
+	border-bottom: 2px solid white;
+}
+.nav-main ul.nav-menu {
+	flex: 1;
+	margin-left: 15px;
+}
+.nav-main .menu-btn {
+	padding: 15px;
+}
+/* logo principal */
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.infobae {
+	width: 305;
+	height: 55px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.padre-paises {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.paises {
+	display: flex;
+	justify-content: space-between;
+}
+.pais {
+	padding: 10px;
+}
